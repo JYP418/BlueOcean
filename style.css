@@ -9,3 +9,11 @@ body {
 	bottom:0; 
 	width:100%; 
 }
+
+.navbar-nav>li>a {
+	text-shadow: none;
+	margin-right: 55px;
+}
+.navbar-nav>li>a.last {
+	margin-right: 170px;
+}
