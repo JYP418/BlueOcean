@@ -13,9 +13,26 @@ body {
 .navbar-nav>li>a {
 	text-shadow: none;
 	margin-right: 55px;
+	color: rgb(192, 196, 196);
 }
 .navbar-nav>li>a.last {
 	margin-right: 170px;
+}
+
+.navbar-nav>li>a:hover {
+	background-color: transparent;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: transparent;
+}
+
+.dropdown-menu {
+	background-color: rgba(237, 239, 240, 0.7);
+}
+
+.dropdown-menu>li>a {
+	color: rgb(49, 51, 51);
 }
 
 #header {
@@ -32,4 +49,9 @@ body {
 
 #header h4 {
 	color: rgb(49, 51, 51);
+}
+
+.leaflet-container .leaflet-control-attribution {
+	background-color: transparent;
+	font-size: 7px;
 }

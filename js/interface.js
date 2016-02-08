@@ -16,3 +16,5 @@ map.keyboard.disable();
 
 // remove Zoom Control up and down arrows
 map.removeControl(map.zoomControl);
+
+
