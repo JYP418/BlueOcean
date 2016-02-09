@@ -17,7 +17,8 @@ body {
 .navbar-nav>li>a {
 	text-shadow: none;
 	margin-right: 55px;
-	color: rgb(97, 97, 99);
+	color: rgb(192, 196, 196);
+	font-size: 14px;
 }
 .navbar-nav>li>a.last {
 	margin-right: 170px;
