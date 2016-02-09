@@ -2,6 +2,10 @@ body {
 	margin:0; 
 	padding:0; 
 }
+
+.container-fluid {
+	padding: 0;
+}
   
 #map { 
 	position:absolute; 
@@ -13,7 +17,7 @@ body {
 .navbar-nav>li>a {
 	text-shadow: none;
 	margin-right: 55px;
-	color: rgb(192, 196, 196);
+	color: rgb(97, 97, 99);
 }
 .navbar-nav>li>a.last {
 	margin-right: 170px;
@@ -54,4 +58,8 @@ body {
 .leaflet-container .leaflet-control-attribution {
 	background-color: transparent;
 	font-size: 7px;
+}
+
+h3 {
+	word-spacing: -1px;
 }

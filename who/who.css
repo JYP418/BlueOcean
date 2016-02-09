@@ -1,0 +1,26 @@
+/*WHO ARE WE*/
+
+body { 
+	margin:0; 
+	padding:0; 
+}
+
+.container-fluid {
+	background: rgb(48, 81, 194);
+	padding:0;
+}
+
+.col-md-6 .whoContent {
+	margin: 10px 170px 120px 0;
+}
+
+h3 {
+	word-spacing: -16px;
+	margin-bottom: 150px;
+	color: white;
+}
+
+p {
+	color: white;
+	text-align: justify;
+}
