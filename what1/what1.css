@@ -10,10 +10,9 @@ body {
 	padding:0;
 }
 
-.col-md-6 .whoContent {
+.col-md-6 .whatContent {
 	margin: 10px 170px 120px 0;
 }
-
 h6, a {
 	color: white;
 	font-weight: 300;
@@ -26,11 +25,11 @@ h6, a:hover {
 
 h3 {
 	margin-bottom: 150px;
-	margin-right: 150px;
+	margin-right: 10px;
 	color: white;
 }
 
-p {
+p, ul, li {
 	color: white;
 	text-align: justify;
 }

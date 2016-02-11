@@ -14,16 +14,6 @@ body {
 	margin: 10px 170px 120px 0;
 }
 
-h6, a {
-	color: white;
-	font-weight: 300;
-	margin-left: 20px;
-    margin-top: 25px;
-}
-h6, a:hover {
-	color: rgb(192, 196, 196);
-}
-
 h3 {
 	margin-bottom: 150px;
 	margin-right: 150px;
