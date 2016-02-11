@@ -10,8 +10,19 @@ body {
 	padding:0;
 }
 
-.col-md-6 .whoContent {
+.col-md-6 .whatContent {
 	margin: 10px 170px 120px 0;
+}
+
+h6, a {
+	color: white;
+	font-weight: 300;
+	margin-left: 20px;
+    margin-top: 25px;
+}
+
+h6, a:hover {
+	color: rgb(192, 196, 196);
 }
 
 h3 {
@@ -23,4 +34,29 @@ h3 {
 p {
 	color: white;
 	text-align: justify;
+}
+
+.break1 {
+	color: white;
+	line-height: 2.5;
+	padding-left: 30px;
+	text-align: justify;
+}
+
+.break2 {
+	color: white;
+	line-height: 2.5;
+	padding-left: 60px;
+	text-align: justify;
+}
+
+.divider {
+	border-top: 1px solid rgb(192, 196, 196);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+a, .bloglink {
+	margin: 0;
+	color: rgba(255,255,255,.6);
 }
