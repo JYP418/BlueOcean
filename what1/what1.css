@@ -37,7 +37,11 @@ body {
 }
 
 .dropdown-menu>li>a {
-    color: rgb(49, 51, 51);
+    color: rgba(61, 84, 153, 0.9);
+}
+
+.dropdown-menu>li>a:hover {
+    color: rgb(61, 84, 153);
 }
 
 .col-md-6 .whatContent {
