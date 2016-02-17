@@ -1,3 +1,4 @@
+// Add mapbox map
 mapboxgl.accessToken = "pk.eyJ1IjoicGF1bHNjaG9pIiwiYSI6ImNpanltYTR5YzIwamZ2d201eTF6dXd2NGIifQ.VhnYA-RLHhYhw9Fht-HLwA";
 
 var map = new mapboxgl.Map({
@@ -12,7 +13,10 @@ var map = new mapboxgl.Map({
     dragPan: false
 });
 
+// Fade in Header after 
+map.on("load", function() {
+    $("#header").fadeIn(6000);
+});
 
-function myFunction() {
-    document.querySelector("#header");
-}
+// Change opacity of the map
+$("#map").css({ opacity: 0.9 });

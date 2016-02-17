@@ -1,20 +1,20 @@
 
-body { 
-    margin:0; 
-    padding:0; 
+body {
+    margin:0;
+    padding:0;
 }
 
-#map { 
-    position:absolute; 
-    top:0; 
-    bottom:0; 
-    width:100%; 
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
 }
 
 .navbar-nav>li>a {
     text-shadow: none;
     margin-right: 55px;
-    color: rgb(61, 84, 153);
+    color: rgb(5, 7, 117);
     font-size: 14px;
 }
 .navbar-nav>li>a.last {
@@ -34,11 +34,19 @@ body {
 }
 
 .dropdown-menu>li>a {
-    color: rgba(61, 84, 153, 0.8);
+    color: rgba(5, 7, 117, 0.8);
 }
 
 .dropdown-menu>li>a:hover {
-    color: rgb(61, 84, 153);
+    color: rgb(5, 7, 117);
+}
+
+.navbar-toggle { 
+    float: left;
+    padding: 10px 10px 0px 10px;
+    margin-left: 15px;
+    background-color: rgba(192, 196, 196, 0.3);
+    color: rgb(5, 7, 117);
 }
 
 .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
@@ -51,6 +59,7 @@ body {
     position: relative;
     text-align: center;
     font-size: 70px;
+    display:none;
 }
 
 #header h1 {
@@ -61,5 +70,5 @@ body {
 }
 
 #header h4 {
-    color: rgb(61, 84, 153);
+    color: rgb(5, 7, 117);
 }
