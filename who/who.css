@@ -14,14 +14,18 @@ body {
     margin-bottom: 0;
 }
 
+#my-navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 .navbar-nav>li>a {
     text-shadow: none;
-    margin-right: 55px;
+    margin-right: 30px;
     color: rgb(192, 196, 196);
     font-size: 14px;
 }
 .navbar-nav>li>a.last {
-    margin-right: 170px;
+    margin-right: 100px;
 }
 
 .navbar-nav>li>a:hover {

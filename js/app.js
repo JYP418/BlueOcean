@@ -13,10 +13,18 @@ var map = new mapboxgl.Map({
     dragPan: false
 });
 
-// Fade in Header after 
-map.on("load", function() {
-    $("#header").fadeIn(6000);
-});
-
 // Change opacity of the map
 $("#map").css({ opacity: 0.9 });
+
+// Fade in Header and Nav after Map loads
+map.on("load", function() {
+    $("#header").fadeIn(6000);
+    $(".navbar").fadeIn(12000);
+});
+
+// $(window).on("scroll", function fly() {
+//     map.flyTo({
+//         center: [-42.455278, 12.096623],
+//         zoom: 1
+//     });
+// });
